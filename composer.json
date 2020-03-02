@@ -3,5 +3,13 @@
   "description": "Composer package test",
   "require": {
     "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prueba\\": "src/"
+    }
   }
 }
