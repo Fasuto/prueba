@@ -1,16 +1,19 @@
 {
   "name": "fasuto/prueba",
+  "keywords": ["test","prueba"],
+  "license": "MIT",
   "description": "Composer package test",
   "require": {
-    "php": "^7.2"
+    "php": ">=7.2"
   },
   "require-dev": {
     "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-4": {
-      "Fasuto\\Prueba\\": "src/"
+      "Fasuto\\Prueba\\": "src"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
