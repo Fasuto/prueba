@@ -1,0 +1,7 @@
+{
+  "name": "fasuto/prueba",
+  "description": "Composer package test",
+  "require": {
+    "php": "^7.2"
+  }
+}
