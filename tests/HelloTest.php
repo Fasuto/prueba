@@ -1,6 +1,6 @@
 <?php
 
-use Prueba\Hello;
+use Fasuto\Prueba\Hello;
 
 class HelloTest extends PHPUnit_Framework_TestCase
 {
